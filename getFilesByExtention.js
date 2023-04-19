@@ -7,13 +7,13 @@ try {
   let folder = prompt("Enter the folder name: ");
   let extension = prompt("Enter the extention: ");
 
-  getFilesByextension(folder, extension);
+  getFiles(folder, extension);
 } catch (error) {
   log(error);
 }
 
 /////////////////////////////////* function */////////////////////////////////////
-function getFilesByextension(folder, extension) {
+function getFiles(folder, extension) {
   let basepath = basedir + "/" + folder;
   //   console.log(basepath);
   fs.readdir(basepath, (error, files) => {
@@ -22,7 +22,6 @@ function getFilesByextension(folder, extension) {
     } else {
       let resultantFiles = files.filter((files) => files.endsWith(extension));
       log(resultantFiles);
-      console.log(basepath);
     }
   });
 }
