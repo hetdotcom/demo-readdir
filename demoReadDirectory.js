@@ -17,6 +17,8 @@ let path = prompt("Enter directory name: ");
 }
 
 ////////////////////////////* Input using POSTMAN *///////////////////////////////
+// error in this
+
 // try {
 //   http
 //     .createServer((req, res) => {
@@ -35,7 +37,7 @@ let path = prompt("Enter directory name: ");
 //     });
 // } catch (error) {
 //   console.log(error);
-// }
+// }n
 
 
 /////////////////////////////////* function */////////////////////////////////////
