@@ -37,7 +37,7 @@ let path = prompt("Enter directory name: ");
 //     });
 // } catch (error) {
 //   console.log(error);
-// }
+// }n
 
 
 /////////////////////////////////* function */////////////////////////////////////
